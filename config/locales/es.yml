@@ -1,0 +1,27 @@
+---
+es:
+  categories:
+    common:
+      back: Atras
+    form:
+      description: Descripcion
+      name: Nombre
+    new_category: Nueva Categoria
+  activerecord:
+    models:
+      category:
+        one: Crear Categoria
+        others: Crear Categorias
+      task:
+        one: Crear Tarea
+        others: Crear Tareas
+  hello: Hello world
+  tasks:
+    common:
+      back: Atras
+    form:
+      category: Categoria
+      description: Descripcion
+      due_date: Fecha
+      name: Nombre
+    new_task: Nueva Tarea
