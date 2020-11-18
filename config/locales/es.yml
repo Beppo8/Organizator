@@ -1,12 +1,5 @@
 ---
 es:
-  categories:
-    common:
-      back: Atras
-    form:
-      description: Descripcion
-      name: Nombre
-    new_category: Nueva Categoria
   activerecord:
     models:
       category:
@@ -15,7 +8,22 @@ es:
       task:
         one: Crear Tarea
         others: Crear Tareas
+  categories:
+    activerecord:
+      models:
+        category:
+          one: Categoria
+          others: Categorias
+    common:
+      back: Atras
+    form:
+      description: Descripcion
+      name: Nombre
+    new_category: Nueva Categoria
   hello: Hello world
+  task:
+    errors:
+      invalid_due_date: La fecha no puede estar en el pasado
   tasks:
     common:
       back: Atras

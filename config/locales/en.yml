@@ -1,5 +1,13 @@
 ---
 en:
+  activerecord:
+    models:
+      category:
+        one: Crear Categoria
+        others: Crear Categorias
+      task:
+        one: Crear Tarea
+        others: Crear Tareas
   categories:
     activerecord:
       models:
@@ -13,6 +21,9 @@ en:
       name: Name
     new_category: Nueva Categoria
   hello: Hello world
+  task:
+    errors:
+      invalid_due_date: Invalid due date
   tasks:
     common:
       back: Back
