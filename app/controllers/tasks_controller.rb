@@ -8,7 +8,7 @@ class TasksController < ApplicationController
     @tasks = Task.joins(:participants).where(
         'owner_id = ? OR participants.user_id = ? ',
         current_user.id,
-        current_user.id
+        current_user.id,
     ).group(:id)
   end
 
